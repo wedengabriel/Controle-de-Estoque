@@ -2,7 +2,7 @@
 
 ## Descrição 📝
 
-Este projeto é uma aplicação desenvolvida para gerenciar o controle de estoque de materiais em um almoxarifado, permitindo a adição, remoção e consulta de materiais. Ele foi desenvolvido como parte do trabalho acadêmico da disciplina de **Lógica de Programação Aplicada** no curso de **Análise e Desenvolvimento de Sistemas (ADS)** da **Universidade Internacional de Educação a Distância (Uninter)**. 🎓
+Este projeto é uma aplicação desenvolvida para gerenciar o controle de estoque de materiais em um almoxarifado, permitindo a adição, remoção e consulta de materiais. Ele foi desenvolvido como parte do trabalho acadêmico da disciplina de **Lógica de Programação Aplicada** no curso de **Análise e Desenvolvimento de Sistemas (ADS)** do **Centro Universitário Internacional (Uninter)**. 🎓
 
 ## Funcionalidades ⚙️
 
