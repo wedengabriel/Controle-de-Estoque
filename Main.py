@@ -2,6 +2,9 @@ import tkinter as tk
 from tkinter import ttk
 import sqlite3
 from tkinter import messagebox
+import os
+import sys
+import ctypes
 
 # Função para listar materiais com filtro
 def listar_materiais(filtro_nome='', filtro_categoria='', filtro_fornecedor=''):
@@ -169,6 +172,15 @@ root.title("Controle de Estoque")
 
 # Maximizar a janela ao iniciar
 root.state('zoomed')
+
+# Icone do app
+CAMINHO_ICONE = os.path.join(os.path.dirname(__file__), 'dist', 'Icons', 'armazem-convertico.ico')
+root.iconbitmap(CAMINHO_ICONE)
+
+# Define o ícone da taskbar (Windows)
+if sys.platform == "win32":
+    app_id = 'meu.app.estoque'  # Pode ser qualquer identificador único
+    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(app_id)
 
 # Definir o tamanho do frame para ocupar toda a janela
 frame = tk.Frame(root)
